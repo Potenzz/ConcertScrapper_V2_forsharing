@@ -166,8 +166,13 @@ class Scraper:
         previous_post_count = 0
         while True:
             try:
-                posts = self.driver.find_elements(By.CLASS_NAME, "post_wrapper")
+                posts = WebDriverWait(self.driver, 10).until(
+                    EC.presence_of_all_elements_located(
+                        (By.CLASS_NAME, "post_wrapper")
+                    )
+                )
                 current_post_count = len(posts)
+                print("Current Posts loaded", current_post_count)
 
                 # Check if the post count has increased after clicking "Load More"
                 if current_post_count == previous_post_count:
