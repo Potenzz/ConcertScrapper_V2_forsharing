@@ -1,8 +1,6 @@
----
-👨‍💻 Developed by: Vishnu
-📧 Email: vishnu10kumar11@gmail.com
-💼 Open for freelance projects – feel free to reach out!  
----
+> 👨‍💻 Developed by: Vishnu  
+> 📧 Email: vishnu10kumar11@gmail.com  
+> 💼 Open for freelance projects – feel free to reach out!
 
 
 # Python EXE Builder
