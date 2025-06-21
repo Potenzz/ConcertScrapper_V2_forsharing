@@ -1,3 +1,10 @@
+---
+👨‍💻 Developed by: Vishnu
+📧 Email: vishnu10kumar11@gmail.com
+💼 Open for freelance projects – feel free to reach out!  
+---
+
+
 # Python EXE Builder
 
 In case you need .exe files of each scripts.
